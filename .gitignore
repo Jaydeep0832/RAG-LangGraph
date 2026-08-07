@@ -1,0 +1,27 @@
+# Environments & Secrets
+.env
+.env*.local
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache & build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated indices / temporary data (optional, keep source clean)
+faiss_index/
+
+# OS metadata
+.DS_Store
+Thumbs.db

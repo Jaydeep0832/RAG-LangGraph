@@ -135,9 +135,3 @@ Open your browser at `http://localhost:8501`.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Jaydeep0832/RAG-LangGraph/issues).
-
----
-
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).

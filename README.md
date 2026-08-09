@@ -51,18 +51,21 @@ RAG+LangGraph_Project/
 
 ## 🖼️ Application Screenshots & Demo
 
-Here is the Streamlit web interface in action, showcasing the stateful agent with live tool tracing, document search (RAG), and mathematical tool executions:
+Here is the interactive Streamlit web interface in action, showcasing sample question chips, live tool tracing, document search (RAG), and mathematical tool executions:
 
-### 1. Direct Conversational Response
-![Direct Response](assets/demo_direct_chat.png)
+### 1. Interactive Dashboard & Quick Sample Prompts
+![Interactive Dashboard](assets/demo_header_dashboard.png)
 
 ### 2. RAG Semantic Document Search (`search_docs`)
 ![RAG Semantic Search](assets/demo_rag_retrieval.png)
 
-### 3. Custom Math & Utility Tool Execution (`divide`)
-![Math Calculation Tool](assets/demo_math_tool.png)
+### 3. Custom Math Tool & Live Tool Trace (`divide`)
+![Math Tool Execution](assets/demo_math_tool.png)
 
-### 4. FAISS Knowledge Retrieval & Markdown Rendering
+### 4. Direct Conversational Response (No Tools Required)
+![Direct Response](assets/demo_direct_chat.png)
+
+### 5. FAISS Vector Retrieval & Markdown Rendering
 ![FAISS Knowledge Search](assets/demo_faiss_table.png)
 
 ---

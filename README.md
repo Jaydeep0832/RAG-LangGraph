@@ -38,6 +38,7 @@ RAG+LangGraph_Project/
 ├── app.py              # Streamlit UI application with live tool tracking
 ├── agent.py            # LangGraph agent definition & custom tools
 ├── ingest.py           # Script to chunk documents & build FAISS vector index
+├── assets/             # Streamlit UI screenshots & demo media
 ├── sample_docs/        # Knowledge base text files (e.g. ai_context.txt)
 │   └── ai_context.txt
 ├── faiss_index/        # Generated local FAISS vector store
@@ -45,6 +46,24 @@ RAG+LangGraph_Project/
 ├── .env.example        # Environment variable template
 └── README.md           # Project documentation
 ```
+
+---
+
+## 🖼️ Application Screenshots & Demo
+
+Here is the Streamlit web interface in action, showcasing the stateful agent with live tool tracing, document search (RAG), and mathematical tool executions:
+
+### 1. Direct Conversational Response
+![Direct Response](assets/demo_direct_chat.png)
+
+### 2. RAG Semantic Document Search (`search_docs`)
+![RAG Semantic Search](assets/demo_rag_retrieval.png)
+
+### 3. Custom Math & Utility Tool Execution (`divide`)
+![Math Calculation Tool](assets/demo_math_tool.png)
+
+### 4. FAISS Knowledge Retrieval & Markdown Rendering
+![FAISS Knowledge Search](assets/demo_faiss_table.png)
 
 ---
 
